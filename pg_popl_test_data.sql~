@@ -1,6 +1,6 @@
 CREATE or replace FUNCTION popl_test_data() returns real AS $$
 DECLARE
- curr_user_id integer default 0; 
+ curr_user_id integer default 0;
  curr_fname VARCHAR := 'Jim'; 
  curr_lname VARCHAR := 'Williams'; 
  curr_login_name VARCHAR := 'JimWilliams';
